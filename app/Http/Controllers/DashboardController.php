@@ -39,24 +39,25 @@ class DashboardController extends Controller
     public function update()
     {
         // Menghubungkan dengan tampilan Update
-        return view ('update'); 
+        return view ('update');
     }
 
     public function requestBooking()
     {
         // Menghubungkan dengan tampilan Request Booking
-        return view ('request_booking'); 
+        return view ('request_booking');
     }
 
     public function canceledBooking()
     {
         // Menghubungkan dengan tampilan Canceled Booking
-        return view ('canceled_booking'); 
+        return view ('canceled_booking');
     }
 
-    public function invoice()
+    public function viewss()
     {
         // Menghubungkan dengan tampilan Invoice
-        return view('invoice');
+        return view('invoices.viewss');
     }
+
 }

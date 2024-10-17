@@ -57,7 +57,7 @@
                                 <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
                             </svg>
                         </button>
-                
+
                         <!-- Megamenu yang turun ke bawah -->
                         <div id="megamenu" class="hidden flex-col relative bg-white shadow-md">
                             <a href="/fcl-booking" class="block p-2 hover:bg-blue-50 text-gray-700">
@@ -95,11 +95,11 @@
                                 </svg>
                                 Canceled Booking
                             </a>
-                            
+
                         </div>
                     </li>
                 </ul>
-                
+
                 <!-- Menu Attachment dan Invoice di atas Admin dan Logout -->
                 <ul class="space-y-1 mt-8">
                     <li>
@@ -116,7 +116,7 @@
 
                 <ul class="space-y-1 mb-8">
                     <li>
-                        <a href="/invoice"
+                        <a href="/viewss"
                             class="flex items-center py-2.5 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                             <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <!-- Ikon Invoice -->
@@ -169,7 +169,7 @@
             @yield('content')
         </main>
     </div>
-
+    @yield('scripts')
 <script>
     function toggleMegaMenu() {
         const menu = document.getElementById('megamenu');
